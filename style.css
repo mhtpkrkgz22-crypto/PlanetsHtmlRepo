@@ -5,17 +5,22 @@ html{
 
 body{
     text-align: center;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1{
     color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px red;
-  font-style: oblique;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px red;
+    font-style: oblique;
+    display: inline;
 }
 
 h2{
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
  
 
@@ -25,25 +30,26 @@ img{
 }
 
 ul {
-  display: inline-block;
-  text-align: left;
-  padding-left: 0;
+    display: inline-block;
+    text-align: center;
+    padding-left: 0;
 }
 
 li {
-  color: #fb09c2; /* nokta rengi */
+    color: #fb09c2; /* nokta rengi */
 }
 
 li a {
-  color: #fb09c2; /* link yazı rengi */
-  text-decoration: none; /* isteğe bağlı */
+    color: #fb09c2; /* link yazı rengi */
+    text-decoration: none; /* isteğe bağlı */
 }
 h3{
-  color: rgb(0, 0, 0);
-  text-shadow: 2px 2px 4px #000000;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .images img{
-  width: 800px;
-  height: auto;
+    width: 800px;
+    height: auto;
 }
+
