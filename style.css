@@ -15,7 +15,6 @@ h1{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px red;
     font-style: oblique;
-    display: inline;
 }
 
 h2{
@@ -50,6 +49,27 @@ h3{
 
 .images img{
     width: 800px;
+    height: auto;
+}
+
+.side-contents{
+    background-color: #02364c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 800;
+    margin: 0 auto;
+    text-align: left;
+    color: #dbf8f8;
+}
+
+.title-contents{
+    flex: 1;
+}
+
+.side-image{
+    max-width: 300;
     height: auto;
 }
 
